@@ -1,0 +1,146 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#social-share {
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  z-index: 10;
+}
+
+#social-share a {
+  text-decoration: none;
+  float: right;
+}
+
+#social-share a:not(:first-child) {
+  animation: fadeOut 0.5s;
+  display: none;
+}
+
+#social-share:hover a:not(:first-child) {
+  display: inline;
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  -o-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+#social-share:hover .fa-chevron-circle-left {
+  border-radius: 0px;
+}
+
+#social-share a .my-social {
+  border-right: 0;
+}
+
+#social-share a .fa-whatsapp {
+  color: black;
+}
+
+#social-share a .fa-instagram {
+  color: black;
+  padding: 8px 11px;
+}
+
+#social-share a .fa-calendar-check {
+  color: black;
+  padding: 8px 11px;
+}
+
+#social-share > a > .fa-chevron-circle-left {
+  color: black;
+  border-right: 0;
+  padding: 8px 10px;
+  border-radius: 3px 0px 0px 3px;
+}
+
+#social-share #whatsapp:focus > .fa-whatsapp,
+#social-share .fa-whatsapp:hover {
+  background-color: black;
+  border-collapse: black;
+  color: #fff;
+}
+
+#social-share #instagram:focus > .fa-instagram,
+#social-share .fa-instagram:hover {
+  background-color: black;
+  border-collapse: black;
+  color: #fff;
+}
+
+#social-share #fresha:focus > .fa-calendar-check,
+#social-share .fa-calendar-check:hover {
+  background-color: black;
+  border-collapse: black;
+  color: #fff;
+}
+
+#social-share #kakaotalk:focus > .kakao-talk,
+#social-share .kakao-talk:hover {
+  background-color: black;
+  border-collapse: black;
+  color: #fff;
+}
+
+#social-share #share:focus > .fa-chevron-circle-left,
+#social-share .fa-chevron-circle-left:hover {
+  background-color: black;
+  border-color: black;
+  color: #fff;
+}
+
+.my-social {
+  font-size: 1.5em;
+  border: 1px solid black;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-o-trasition: all 0.4s ease-out;
+  -o-trasition: all 0.4s ease-out;
+}
+
+@media screen and (min-width: 500px) {
+  a .fa-whatsapp {
+    display: none;
+  }
+
+  a .kakao-talk {
+    display: none;
+    visibility: hidden;
+  }
+}

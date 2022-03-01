@@ -1,0 +1,46 @@
+.custom-navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-brand img {
+  padding: 10px;
+  max-height: 55px;
+  max-width: 360px;
+}
+
+.navbar-nav {
+  float: right;
+  background-color: transparent;
+  text-align: center;
+}
+
+.navbar-nav a {
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: bolder;
+}
+
+.navlink {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    width: 120px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 0.25rem;
+  }
+
+  .navbar-brand img {
+    width: 200px;
+  }
+}

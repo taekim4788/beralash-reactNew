@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  top: 70px;
+  text-align: center;
+  object-fit: cover;
+}
+
+.header-image img {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  opacity: 0.4;
+  object-fit: cover;
+}
+
+/* .price-header::before {
+  background-image: url(../images/background2.jpeg);
+}
+
+.contact-header::before {
+  background-image: url(../images/background3.jpeg);
+  background-position: center;
+} */
+
+.header-text {
+  font-size: 50px;
+  padding: 125px 0;
+  margin: auto;
+}

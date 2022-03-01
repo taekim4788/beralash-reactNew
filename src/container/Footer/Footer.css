@@ -1,0 +1,23 @@
+#footer-section {
+  margin: auto;
+  text-align: center;
+  background-color: #ded7ca;
+  padding: 50px;
+  width: 100%;
+}
+
+#footer-image-wrapper {
+  object-fit: cover;
+  margin: 30px;
+}
+
+#footer-image-wrapper img {
+  max-width: 100%;
+  padding: 10px;
+  height: auto;
+  margin: auto;
+}
+
+#footer-instagram {
+  color: black;
+}

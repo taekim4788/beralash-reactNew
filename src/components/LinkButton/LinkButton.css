@@ -1,0 +1,25 @@
+.link-button {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+.link-button a {
+  margin: auto;
+  width: 130px;
+  color: black;
+  background-color: #ffffff;
+  border-color: black;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: bold;
+  border-radius: 1px;
+  text-align: center;
+}
+
+.link-button a:hover,
+.link-button a:focus,
+.link-button a:active {
+  background: gray;
+  color: #ffffff;
+  border-color: gray;
+}

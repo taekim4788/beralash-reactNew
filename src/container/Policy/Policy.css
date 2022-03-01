@@ -1,0 +1,65 @@
+.policy-wrapper {
+  margin: auto;
+  width: 80%;
+  padding: 54px 0px;
+}
+
+.accordion-item {
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+.accordion-button {
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #444;
+  background-color: whitesmoke;
+}
+
+.accordion-button:after {
+  content: "\2795";
+  font-family: "FontAwesome";
+  font-size: 16px;
+  float: right;
+  background-image: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #444;
+  background-color: whitesmoke;
+  border: 0;
+  content: "\2796";
+  background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  color: #444;
+  border: 0;
+  content: "\2796";
+  background-image: none;
+}
+
+.accordion-button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.accordion-button:hover,
+.accordion-button.is-open {
+  background-color: #ddd;
+  color: #444;
+  border-color: darkgray;
+}
+
+.accordion-body {
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  padding-bottom: 0px;
+}
