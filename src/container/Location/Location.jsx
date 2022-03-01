@@ -3,7 +3,7 @@ import React from "react";
 import "./Location.css";
 
 const Location = () => (
-  <div id="location" class="sub-section">
+  <div id="location" className="sub-section">
     <h2>Location</h2>
     <iframe
       className="locationBox"
@@ -12,7 +12,7 @@ const Location = () => (
       width="600"
       height="450"
       style={{ borders: 0 }}
-      allowfullscreen=""
+      allowFullScreen=""
       loading="lazy"
     ></iframe>
   </div>

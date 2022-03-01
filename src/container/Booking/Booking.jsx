@@ -4,7 +4,7 @@ import { LinkButton } from "../../components";
 import "./Booking.css";
 
 const Booking = () => (
-  <div id="booking" class="link-button sub-section">
+  <div id="booking" className="link-button sub-section">
     <h2>Book an appointment</h2>
     <LinkButton
       text="Book Now"
