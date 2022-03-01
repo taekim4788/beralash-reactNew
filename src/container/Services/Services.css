@@ -5,6 +5,8 @@
 
 #service-row {
   padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .service-list-content {

@@ -44,3 +44,9 @@
     width: 200px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .navbar-brand img {
+    filter: invert(1);
+  }
+}

@@ -6,7 +6,6 @@ import { LinkButton } from "../../components";
 import "./MyWork.css";
 
 const MyWork = () => (
-  //box shadow?
   <div id="work-section">
     <h2>My Work</h2>
     <div id="work-image-wrapper" className="row">

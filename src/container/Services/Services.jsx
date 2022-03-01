@@ -1,10 +1,9 @@
 import React from "react";
 
-import images from "../../constants/images";
 import { LinkButton } from "../../components";
 import "./Services.css";
 
-const Services = (props) => (
+const Services = () => (
   <div className="service-list content-section">
     <h2>Services</h2>
     <div id="service-row" className="container">
@@ -30,7 +29,6 @@ const Services = (props) => (
       </div>
     </div>
 
-    {/* Attempt to modify with bootstrap */}
     <LinkButton text="Get Prices" link="/pricing" />
   </div>
 );

@@ -1,15 +1,22 @@
 import React, { useState } from "react";
 import { RiKakaoTalkLine } from "react-icons/ri";
+import { whatsAppData } from "../../constants/";
 
 import "./SNS.css";
 
 const SNS = () => {
+  const whatsAppLink = whatsAppData.whatsApp.url + whatsAppData.whatsApp.number;
   const [hoverStatus, setHoverStatus] = useState("false");
 
   function hoverHandling() {
     setHoverStatus((prev) => {
       return !prev;
     });
+  }
+
+  function checkLink() {
+    console.log(whatsAppData.url);
+    console.log(whatsAppData.number);
   }
 
   return (
@@ -38,7 +45,12 @@ const SNS = () => {
         <i className="far fa-calendar-check my-social"></i>
       </a>
 
-      <a className="w-button" data-number="64211763513" data-message="">
+      <a
+        href={whatsAppLink}
+        className="w-button"
+        data-number={whatsAppData.whatsApp.number}
+        data-message=""
+      >
         <i className="fab fa-whatsapp my-social"></i>
       </a>
 
@@ -48,6 +60,7 @@ const SNS = () => {
         title="Kakaotalk"
         id="kakaotalk"
         rel="noreferrer"
+        onClick={checkLink}
       >
         <RiKakaoTalkLine
           className="kakao-talk my-social"
