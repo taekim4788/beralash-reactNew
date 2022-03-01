@@ -40,3 +40,13 @@
   color: #ffffff;
   border-color: gray;
 }
+
+@media screen and (max-width: 991px) {
+  #service-row {
+    padding: 20px 20px 0;
+  }
+
+  .service-list-content {
+    padding: 10px;
+  }
+}

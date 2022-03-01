@@ -21,3 +21,13 @@
 #footer-instagram {
   color: black;
 }
+
+@media screen and (max-width: 991px) {
+  #footer-section {
+    padding: 20px;
+  }
+
+  #footer-image-wrapper {
+    margin: 15px;
+  }
+}

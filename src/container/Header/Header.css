@@ -22,3 +22,18 @@
   padding: 125px 0 200px;
   margin: auto;
 }
+
+@media screen and (max-width: 991px) {
+  .header {
+    height: 200px;
+  }
+
+  .header-image img {
+    height: 200px;
+  }
+
+  .header-text {
+    font-size: 40px;
+    padding: 0 0 25px;
+  }
+}
