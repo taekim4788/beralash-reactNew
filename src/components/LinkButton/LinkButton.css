@@ -1,7 +1,9 @@
 .link-button {
+  /* display: flex;
+  justify-content: center; */
   margin: auto;
   text-align: center;
-  width: 60%;
+  width: 100%;
 }
 
 .link-button a {
