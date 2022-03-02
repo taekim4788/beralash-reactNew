@@ -3,11 +3,6 @@
   padding: 100px;
 }
 
-#work-section h2 {
-  font-family: "Source Serif 4", sans-serif;
-  font-size: 48px;
-}
-
 #work-image-wrapper {
   display: flex;
   justify-content: space-evenly;

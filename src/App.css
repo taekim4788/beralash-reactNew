@@ -1,17 +1,3 @@
-h1,
-h2,
-h3,
-h5,
-h6 {
-  font-family: "Source Serif 4", sans-serif;
-  color: black;
-}
-
-p {
-  font-family: "IBM Plex Sans Thai Looped", sans-serif;
-  font-weight: bold;
-}
-
 .content-section {
   text-align: center;
   padding-top: 150px;
@@ -27,14 +13,33 @@ p {
   padding: 100px 0px;
 }
 
-.sub-section h2 {
-  font-family: "Source Serif 4", sans-serif;
+/* Fonts */
+
+h2 {
   font-size: 48px;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: "Source Serif 4", sans-serif;
+  color: black;
+}
+
+p {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 991px) {
   .content-section {
     text-align: center;
     padding-top: 100px;
+  }
+
+  h2 {
+    font-size: 38px;
   }
 }

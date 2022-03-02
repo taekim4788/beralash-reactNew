@@ -13,12 +13,6 @@ const SNS = () => {
       return !prev;
     });
   }
-
-  function checkLink() {
-    console.log(whatsAppData.url);
-    console.log(whatsAppData.number);
-  }
-
   return (
     <div id="social-share">
       <a href="#home" title="Social Share" id="share">
@@ -46,21 +40,11 @@ const SNS = () => {
       </a>
 
       <a
-        href={whatsAppLink}
-        className="w-button"
-        data-number={whatsAppData.whatsApp.number}
-        data-message=""
-      >
-        <i className="fab fa-whatsapp my-social"></i>
-      </a>
-
-      <a
         href="https://open.kakao.com/o/sSQpIWMd"
         target="_blank"
         title="Kakaotalk"
         id="kakaotalk"
         rel="noreferrer"
-        onClick={checkLink}
       >
         <RiKakaoTalkLine
           className="kakao-talk my-social"
@@ -69,6 +53,15 @@ const SNS = () => {
           style={{ color: hoverStatus ? "black" : "white" }}
           size="42px"
         />
+      </a>
+
+      <a
+        href={whatsAppLink}
+        className="w-button"
+        data-number={whatsAppData.whatsApp.number}
+        data-message=""
+      >
+        <i className="fab fa-whatsapp my-social"></i>
       </a>
     </div>
   );

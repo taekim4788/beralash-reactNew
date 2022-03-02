@@ -1,7 +1,6 @@
 import React from "react";
 
 import { LinkButton } from "../../components";
-import "./Booking.css";
 
 const Booking = () => (
   <div id="booking" className="link-button sub-section">

@@ -8,7 +8,7 @@ import "./Policy.css";
 const Policy = () => {
   return (
     <div className="policy-wrapper">
-      <Accordion>
+      <Accordion alwaysOpen>
         <Accordion.Item eventKey="0">
           <Accordion.Header id="header">Policies</Accordion.Header>
           <Accordion.Body>
