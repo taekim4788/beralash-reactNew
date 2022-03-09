@@ -17,7 +17,7 @@ const Header = (props) => {
     <div className="header">
       <picture className="header-image">
         <source srcSet={imagePath} media="(min-width: 350px)"></source>
-        <img src={imagePath} alt="headerImage" />
+        <img src={imagePath} alt="headerImage" loading="lazy" />
       </picture>
       <h1 className="header-text">{props.title}</h1>
     </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Welcome from "./pages/welcome";
@@ -13,7 +13,7 @@ const App = () => {
     <Router>
       <Navigationbar />
       <Routes>
-        <Route exact path="/" exact element={<Welcome />} />
+        <Route exact path="/" element={<Welcome />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
