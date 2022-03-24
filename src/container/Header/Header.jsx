@@ -5,11 +5,11 @@ import "./Header.css";
 
 const Header = (props) => {
   let imagePath = null;
-  if (props.title === "Welcome") {
-    imagePath = images.welcome;
+  if (props.title === "Services") {
+    imagePath = images.services;
   } else if (props.title === "Pricing") {
     imagePath = images.pricing;
-  } else if (props.title === "Get In Touch") {
+  } else if (props.title === "Contact") {
     imagePath = images.contacts;
   }
 

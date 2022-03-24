@@ -5,9 +5,9 @@ import Footer from "./Footer/Footer";
 import PriceList from "./PriceList/PriceList";
 import Policy from "./Policy/Policy";
 import ContactList from "./ContactList/ContactList";
-import OpeningHours from "./OpeningHours/OpeningHours";
+import InfoSection from "./InfoSection/InfoSection";
 import Booking from "./Booking/Booking";
-import Location from "./Location/Location";
+import Instagram from "./Instagram/Instagram";
 
 export {
   Header,
@@ -17,7 +17,7 @@ export {
   PriceList,
   Policy,
   ContactList,
-  OpeningHours,
+  InfoSection,
   Booking,
-  Location,
+  Instagram,
 };

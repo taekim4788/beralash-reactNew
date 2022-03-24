@@ -25,9 +25,9 @@ const Navigationbar = () => {
           id="responsive-navbar-nav"
         >
           <Nav className="navbar-nav">
-            <Nav.Link href="/">Welcome</Nav.Link>
+            <Nav.Link href="/">Services</Nav.Link>
             <Nav.Link href="/pricing">Pricing</Nav.Link>
-            <Nav.Link href="/contacts">Get In Touch</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,15 +1,16 @@
 import React from "react";
 
-import { Header, Services, MyWork, Footer } from "../container";
+import { Header, Services, MyWork, Footer, Instagram } from "../container";
 import { SNS } from "../components";
 
 const Welcome = () => {
   return (
     <div>
-      <Header title="Welcome" />
+      <Header title="Services" />
       <SNS />
       <Services />
       <MyWork />
+      <Instagram />
       <Footer />
     </div>
   );

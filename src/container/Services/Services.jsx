@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 import { LinkButton } from "../../components";
 import "./Services.css";
@@ -30,6 +31,10 @@ const Services = () => (
     </div>
 
     <LinkButton text="Get Prices" link="/pricing" />
+    <Link to="/pricing/#lashes">Lashes</Link>
+    <Link to="/pricing/#infills">Infills</Link>
+    <Link to="/pricing/#removal">Lash Removal</Link>
+    <Link to="/pricing/#lift">Lash lift</Link>
   </div>
 );
 
