@@ -10,7 +10,7 @@ const Instagram = () => {
   let url =
     "https://graph.instagram.com/" +
     instagramData.instagram.userId +
-    "/media?fields=media_url,caption,media_type&access_token=" +
+    "/media?fields=media_url,permalink&access_token=" +
     instagramData.instagram.accessToken;
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const Instagram = () => {
               (data, index) =>
                 index < 8 && (
                   <div className="posts">
-                    <a href={data.media_url}>
+                    <a href={data.permalink}>
                       <img src={data.media_url} alt="instagram"></img>
                     </a>
                   </div>

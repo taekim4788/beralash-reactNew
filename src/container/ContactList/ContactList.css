@@ -1,6 +1,6 @@
 #contact-content-section {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  justify-content: center;
   margin: auto;
 
   max-width: 1400px;
@@ -13,6 +13,7 @@
 
 #contact-grid {
   padding: 20px;
+  border: 1px solid black;
 }
 
 #contact-card {

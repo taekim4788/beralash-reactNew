@@ -7,7 +7,7 @@
   top: 70px;
 }
 
-.header-image img {
+.header img {
   content: " ";
   display: block;
   position: absolute;
@@ -28,7 +28,7 @@
     height: 200px;
   }
 
-  .header-image img {
+  .header img {
     height: 200px;
   }
 

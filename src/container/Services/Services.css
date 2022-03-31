@@ -1,16 +1,60 @@
-.service-list h2 {
-  font-size: 48px;
+/* .service-list {
+  background-color: #222222;
+} */
+
+/* .service-list h2 {
+  color: white;
+} */
+
+.MuiCard-root {
+  padding-bottom: 30px;
 }
 
-#service-row {
+#service-section {
+  margin: auto;
   padding: 30px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.service-list-content {
-  font-size: 20px;
-  padding: 20px;
+#lash-card,
+#infill-card,
+#removal-card,
+#lift-card {
+  border: 2px ridge #eeeeee;
+}
+
+.link-button {
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+.link-button a {
+  padding: 5px;
+  width: 130px;
+  color: black;
+  background-color: #ffffff;
+  border: 1px solid white;
+  font-family: "Source Serif 4", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.link-button a:hover,
+.link-button a:focus,
+.link-button a:active {
+  background: gray;
+  color: #ffffff;
+  border-color: gray;
+}
+
+.MuiPaper-root .link-button a {
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 991px) {

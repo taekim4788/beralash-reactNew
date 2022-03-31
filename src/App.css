@@ -1,10 +1,7 @@
 .content-section {
   text-align: center;
-  padding-top: 150px;
-}
-
-#contact-section {
-  margin: auto;
+  margin-top: 70px;
+  padding: 100px 0;
 }
 
 .sub-section {
@@ -36,11 +33,6 @@ p {
 }
 
 @media screen and (max-width: 991px) {
-  .content-section {
-    text-align: center;
-    padding-top: 100px;
-  }
-
   h2 {
     font-size: 38px;
   }

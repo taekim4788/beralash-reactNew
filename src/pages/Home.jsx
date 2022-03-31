@@ -9,7 +9,6 @@ const Welcome = () => {
       <Header title="Services" />
       <SNS />
       <Services />
-      <MyWork />
       <Instagram />
       <Footer />
     </div>
