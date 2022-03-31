@@ -1,4 +1,4 @@
-import welcome from "../assets/welcome.jpeg";
+import services from "../assets/services.jpeg";
 import pricing from "../assets/pricing.jpeg";
 import contacts from "../assets/contacts.jpeg";
 import logo from "../assets/Beralogo.jpeg";
@@ -9,7 +9,7 @@ import work3 from "../assets/work-3.jpeg";
 import work4 from "../assets/work-4.jpeg";
 
 export default {
-  welcome,
+  services,
   pricing,
   contacts,
   logo,

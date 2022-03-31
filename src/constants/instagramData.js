@@ -1,0 +1,10 @@
+const instagram = {
+  clientId: "1109419296300908",
+  userId: "4218092761627244",
+  accessToken:
+    "IGQVJYRmE5NHo5VndPTl9fOW9VYl95ZAVZAaNmFtS1AwRFBtcWlYa3JOTUo2WE5WbDNRMzNjVjNXU1pCSk5NZAktySTRTQVRFMC1QWnZAKYS00QmVFeHZAaTmhmRF81V3B1V2JGZADBtbktDeW9leVk0THduSAZDZD",
+};
+
+export default {
+  instagram,
+};

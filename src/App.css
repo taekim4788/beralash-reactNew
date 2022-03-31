@@ -1,10 +1,7 @@
 .content-section {
   text-align: center;
-  padding-top: 150px;
-}
-
-#contact-section {
-  margin: auto;
+  margin-top: 70px;
+  padding: 100px 0;
 }
 
 .sub-section {
@@ -22,6 +19,7 @@ h2 {
 h1,
 h2,
 h3,
+h4,
 h5,
 h6 {
   font-family: "Source Serif 4", sans-serif;
@@ -31,14 +29,10 @@ h6 {
 p {
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: bold;
+  color: black;
 }
 
 @media screen and (max-width: 991px) {
-  .content-section {
-    text-align: center;
-    padding-top: 100px;
-  }
-
   h2 {
     font-size: 38px;
   }

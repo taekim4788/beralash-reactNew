@@ -1,0 +1,13 @@
+#times {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 32px;
+}
+
+li {
+  margin: 15px;
+}
+
+p {
+  margin-top: 25px;
+}

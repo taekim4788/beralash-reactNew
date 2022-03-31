@@ -1,7 +1,7 @@
 #footer-section {
   margin: auto;
   text-align: center;
-  background-color: #ded7ca;
+  background-color: #222222;
   padding: 50px;
   width: 100%;
 }
@@ -19,7 +19,58 @@
 }
 
 #footer-instagram {
-  color: black;
+  color: white;
+}
+
+#footer-content-section {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+  max-width: 1400px;
+  width: 96%;
+  background-color: #222222;
+  padding: 20px;
+  align-items: top;
+  text-align: center;
+}
+
+#footer-grid {
+  padding: 20px;
+}
+
+#footer-header {
+  background-color: #222222;
+  border: 0px;
+  box-shadow: none;
+  margin-bottom: 30px;
+}
+
+#footer-header h3 {
+  color: white;
+}
+
+#footer-detail {
+  background-color: #222222;
+  border: 0px;
+  box-shadow: none;
+}
+
+#footer-detail p {
+  color: white;
+}
+
+#footer-detail ul {
+  margin-bottom: 20px;
+  color: white;
+}
+
+#footer-detail ul li {
+  margin-bottom: 15px;
+}
+
+#footer-section p {
+  color: white;
 }
 
 @media screen and (max-width: 991px) {

@@ -1,9 +1,9 @@
 import React from "react";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Welcome from "./pages/welcome";
+import Home from "./pages/Home";
 import Pricing from "./pages/pricing";
-import Contacts from "./pages/contacts";
+import Contact from "./pages/contact";
 
 import "./App.css";
 import Navigationbar from "./components/Navigationbar/Navigationbar";
@@ -13,9 +13,9 @@ const App = () => {
     <Router>
       <Navigationbar />
       <Routes>
-        <Route exact path="/" element={<Welcome />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/pricing" element={<Pricing />} />
-        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

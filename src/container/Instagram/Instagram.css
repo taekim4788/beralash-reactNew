@@ -1,24 +1,30 @@
-#work-section {
+#instagram-section {
   text-align: center;
   padding: 100px;
+  background-color: #eeeeee;
 }
 
-#work-image-wrapper {
+#instagram-header {
+  color: black;
+  text-decoration: none;
+}
+
+#instagram-wrapper {
   display: flex;
   justify-content: space-evenly;
   margin: auto;
-  width: 60%;
+  width: 90%;
   padding: 30px 0 50px;
   align-items: center;
 }
 
-.work-image {
+.posts {
   height: 327.5px;
   width: 327.5px;
   overflow: hidden;
 }
 
-.work-image img {
+.posts img {
   padding: 20px;
   width: 90%;
   height: 90%;
@@ -29,38 +35,39 @@
   -moz-box-shadow: 10px 10px 5px #ccc;
   -webkit-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
+  transform: rotate(2deg);
 }
 
-@media screen and (max-width: 2000px) {
-  #work-image-wrapper {
-    max-width: 80%;
+@media screen and (min-width: 1700px) {
+  #instagram-wrapper {
+    max-width: 60%;
     width: auto;
     height: auto;
   }
 }
 
 @media screen and (max-width: 1700px) {
-  #work-image-wrapper {
+  #instagram-wrapper {
     max-width: 100%;
     width: auto;
     height: auto;
   }
 }
 
-@media screen and (max-width: 1400px) {
-  #work-image-wrapper {
-    max-width: 80%;
+/* @media screen and (max-width: 1400px) {
+  #instagram-wrapper {
+    max-width: 100%;
     width: auto;
     height: auto;
   }
-}
+} */
 
 @media screen and (max-width: 991px) {
-  #work-section {
+  #instagram-section {
     padding: 50px;
   }
 
-  #work-image-wrapper {
+  #instagram-wrapper {
     max-width: 100%;
     width: auto;
     height: auto;
